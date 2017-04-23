@@ -36,10 +36,10 @@
     <Compile Include="EntityConfig\UserConfiguration.cs" />
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\RepositoryBase.cs" />
+    <Compile Include="Repositories\UserRepository.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Repositories\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\mContent.Domain\mContent.Domain.csproj">
       <Project>{aa0bc758-6f26-459c-b080-15d4f6a1c8a4}</Project>
